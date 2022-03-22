@@ -1,0 +1,226 @@
+body{  
+    margin: 0 auto;
+    font-family: montserrat;
+    background: #FFF;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 1440px;
+    min-width: 320px;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/*CONTAINER
+================================================================================================*/
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*HEADER
+================================================================================================*/
+
+.header{
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    color: rgba(31, 32, 65, 0.5);
+    padding: 26px 140px;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*NAV
+================================================================================================*/
+
+.nav{
+    align-items: center;
+    display: flex;
+}
+
+.nav_link{
+    margin-left: 45px;
+    color: rgba(31, 32, 65, 0.5);
+    text-decoration: none;
+}
+
+/*BUTTON
+================================================================================================*/
+.btn{
+    font-family: montserrat;
+    font-size: 12px;
+    margin-left: 20px;
+    border-radius: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn_white{
+    background: #fff;
+    color:#BC9CFF;
+    border-color: #BC9CFF; /*======================Поменять цвет======================*/
+    border-width: 2px;
+    border-style: solid;
+}
+
+.btn_grad{
+    border: 0;
+    color: #fff;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.btn_in{
+    margin-top: 10px;
+    width: 320px;
+    height: 44px;
+    position: relative;
+    margin-left: 0;
+}
+
+.btn_create{
+    width: 99px;
+    height: 44px;
+    margin-left: 0;
+}
+
+i{
+    border: solid rgba(31, 32, 65, 0.5);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.material_icons{
+    font-family: 'Material Icons';
+    text-transform: none;
+}
+/*INTRO
+================================================================================================*/
+
+.registration{
+    width: 100%;
+    height: 772px;
+    width: 1440px;
+    background: url(Img/Bgd_reg.jpg);
+    background-position: center;
+}
+
+.room_selection{
+    width: 100%;
+    height: 1022px;
+    background: url(Img/Bgr_Land.jpg) no-repeat;
+    background-position: center;
+}
+
+.form{
+    width: 100%;
+    max-width: 380px;
+    height: 358px;
+    background-color: #fff;
+    position: absolute;
+    margin: 242px 530px;
+    border-radius: 4px;
+    padding: 40px 30px 30px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 20%);;
+}
+
+.form-h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input{
+    margin: 10px 0;
+    border: 1px;
+}
+
+.text_field{
+    width: 100%;
+    width: 320px;
+    height: 44px;
+    padding-left: 15px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: rgba(31, 32, 65, 0,25)
+}
+
+.create_ac
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*FOOTER
+================================================================================================*/
+
+.navigation{
+    padding: 140px;
+    padding-top: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_list{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer_list_item{
+    color:rgba(31, 32, 65, 0.5);
+    font-weight: normal;
+    padding: 0;
+    list-style-type: none;
+    text-transform: none;
+}
+
+.footer_text{
+    font-weight: normal;
+    font-style: normal;
+    size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-transform: none;
+}
+
+.footer_list_item{
+    margin-bottom: 20px;
+}
+
+.footer_field{
+    width: 260px;
+}
+
+.copirate_contant{
+    justify-content: space-between;
+    border-top: 1px solid rgba(31, 32, 65, 0.25);
+    display: flex;
+    padding: 26px 140px;
+}
+
+/*Registration
+================================================================================================*/
+
+.registration_form{
+    width: 380px;
+    height: 646px;
+    margin-top: 109px;
+}
